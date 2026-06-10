@@ -10,6 +10,7 @@ data class ChatMessage(
     val text: String,
     val kind: MessageKind = MessageKind.TEXT,
     val isLoading: Boolean = false,
+    val videoCard: VideoCardData? = null,
 )
 
 data class ChatUiState(
